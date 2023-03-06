@@ -1,0 +1,19 @@
+@import '../variables';
+
+.contact-box {
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-icon {
+  width: 44px;
+  height: 44px;
+  transition: 0.3s ease;
+  border-radius: 50%;
+  color: $info;
+  background-color: $info-light;
+  margin-right: 15px;
+  &:hover {
+    background-color: $info;
+    color: $white;
+  }
+}

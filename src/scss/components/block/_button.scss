@@ -1,0 +1,123 @@
+@import "../../variables";
+.btn {
+  padding: 0.5rem 1.25rem !important;
+}
+
+.btn-round {
+  border-radius: 30px;
+}
+
+.btn-get-start {
+  border: 2px solid $info;
+  transition: 0.3s ease;
+  margin-left: 30px;
+  font-weight: 600;
+  &:hover {
+    background: $info;
+  }
+}
+
+.btn-watch-video {
+  padding-left: 25px;
+  transition: 0.3s ease;
+  text-decoration: none;
+  i {
+    transition: 0.3s;
+    font-size: $heading-font-xl;
+  }
+  span {
+    display: inline-block;
+    padding-left: 6px;
+  }
+  &:hover {
+    i {
+      color: $info;
+    }
+  }
+}
+
+.btn-learn-more {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #47b2e4;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #47b2e4;
+  &:hover {
+    background: #47b2e4;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.btn-call-to-action {
+  transition: 0.3s ease;
+  padding: 12px 40px !important;
+  border: none;
+  outline: 2px solid $white;
+  border-radius: 30px;
+  &:hover {
+    background: $info;
+    outline: 2px solid $info;
+  }
+}
+.btn-price-start {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 50px;
+  color: $info;
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  transition: 0.3s;
+  border: 1px solid $info;
+  &:hover {
+    color: $white;
+    background: $info;
+  }
+}
+
+.btn-is-active {
+  background: $info;
+  color: $white;
+}
+
+.btn-submit-msg {
+  display: inline-block;
+  background: $info;
+  border: 0;
+  padding: 12px 34px;
+  color: $white;
+  transition: 0.4s;
+  border-radius: 50px;
+  &:hover{
+    background: $info-strong;
+    color:$white;
+  }
+}
+
+.btn-newsletter-submit {
+  background: $info;
+  color: $white;
+  padding: 8px 20px;
+  border: 0;
+  outline: 0;
+  transition: 0.3s ease;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  right:-5%;
+  &:hover {
+    background: $info-strong;
+  }
+}
+

@@ -1,0 +1,23 @@
+@import './_variables';
+
+$primary:#37517e;
+$info:#47b2e4;
+$content:#444444;
+$content-light:#848484;
+$green:#28a745;
+
+$theme-colors: (
+  "primary": $primary,
+  "info": $info,
+);
+
+$custom-colors: (
+  "content": $content,
+  "green":$green,
+  "content-light": $content-light,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

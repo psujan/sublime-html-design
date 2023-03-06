@@ -1,0 +1,29 @@
+@import '../variables';
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 997;
+  width: 100%;
+  transition: 0.5s ease;
+  padding: 0.9375rem 0;
+  .navbar {
+    a {
+      font-size: $content-font;
+      padding: 10px 0 10px 30px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+  }
+}
+
+.header-scrolled {
+  background-color: $primary-alt !important;
+}
+
+.logo {
+  h1 {
+    letter-spacing: 1px;
+  }
+}

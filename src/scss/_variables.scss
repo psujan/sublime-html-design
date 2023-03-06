@@ -1,0 +1,68 @@
+:root {
+  //font-sizes
+  --base-font-size: 1rem;
+  --content-font-size: 0.9375rem;
+  --content-font-size-sm: 0.875rem;
+  --hero-font-size: 3rem;
+  --logo-font-size: 1.875rem;
+  --heading-font-size: 1.5rem;
+  --heading-font-size-md: 1.25rem;
+  --heading-font-size-xl: 2rem;
+
+  //theme-color
+  --clr-primary: rgb(55, 81, 126);
+  --clr-primary-alt:rgba(40, 58, 90, 0.902);
+  --clr-info: #47b2e4;
+  --clr-info-strong: #209dd8;
+  --clr-green: #28a745;
+  --clr-content: #444444;
+  --clr-content-light: #848484;
+  --clr-info-light: #e7f5fb;
+  --clr-hero-text: #ffffff99;
+  --clr-gray-100: #f3f5fa;
+  --clr-gray-150: #eff2f8;
+  --clr-gray-200: #cbd6e9;
+  --clr-gray-400: #999;
+  --clr-gray-300: #ccc;
+  --clr-form-border:#ced4da;
+  --clr-white: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    //font-sizes
+    --base-font-size: 0.9375rem;
+    --content-font-size: 0.9rem;
+    --content-font-size-sm: 0.875rem;
+    --hero-font-size: 1.7rem;
+    --logo-font-size: 1.5rem;
+    --heading-font-size: 1.2rem;
+    --heading-font-size-md: 1rem;
+    --heading-font-size-xl: 1.8rem;
+  }
+}
+//font-size variables
+$base-font: var(--base-font-size);
+$content-font: var(--content-font-size);
+$content-font-sm: var(--content-font-size-sm);
+$hero-font: var(--hero-font-size);
+$logo-font: var(--logo-font-size);
+$heading-font: var(--heading-font-size);
+$heading-font-md: var(--heading-font-size-md);
+$heading-font-xl: var(--heading-font-size-xl);
+
+//color variables
+$primary: var(--clr-primary);
+$primary-alt:var(--clr-primary-alt);
+$info: var(--clr-info);
+$content: var(--clr-content);
+$content-light: var(--clr-content-light);
+$content-lighter: var(--clr-hero-text);
+$background-gray-light: var(--clr-gray-100);
+$background-gray-150: var(--clr-gray-150);
+$border-gray-200: var(--clr-gray-200);
+$gray-400: var(--clr-gray-400);
+$gray-300: var(--clr-gray-300);
+$info-light: var(--clr-info-light);
+$info-strong: var(--clr-info-strong);
+$form-border:var(--clr-form-border);

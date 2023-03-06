@@ -1,0 +1,62 @@
+@import '../variables';
+//mobile menu
+.btn-hamburger-icon {
+  position: fixed;
+  display: none;
+  top: 15px;
+  right: 10px;
+  padding: 0 10px;
+  background: transparent;
+  border: 0;
+  i {
+    font-size: 22px;
+    color: $white;
+  }
+}
+
+.btn-close-menu-icon{
+  position: fixed;
+  top: 15px;
+  left:230px;
+  padding: 0 10px;
+  background: transparent;
+  border: 0;
+  i {
+    font-size: 22px;
+    color: $white;
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  width: 0;
+  opacity: 0;
+  left: 0;
+  height: 100%;
+  background-color: $white;
+  box-shadow:0 3px 24px 0px rgba(0 , 0 , 0 , 0.18);
+  transition: 0.4s ease-in-out;
+  z-index: 999;
+  .logo{
+    padding:15px;
+  }
+}
+
+.mobile-menu-active{
+ width:230px;
+ opacity:1;
+}
+
+.mobile-menu-content{
+  padding:20px;
+  ul{
+    li{
+      line-height: 30px;
+      font-size: $content-font;
+      a{
+      color:$content;
+      }
+    }
+  }
+}

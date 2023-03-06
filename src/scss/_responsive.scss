@@ -1,0 +1,53 @@
+@import './variables';
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .section-title {
+    font-size: $heading-font;
+    margin-bottom: 20px;
+  }
+  .hero-content {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    h2 {
+      line-height: 1.8;
+    }
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .general-section {
+    padding: 30px 0;
+  }
+
+  .why-us-col {
+    padding: 10px;
+  }
+
+  .why-us-intro {
+    text-align: center;
+    h3 {
+      font-size: $heading-font;
+    }
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+
+  .newsletter-section {
+    padding: 25px 0;
+  }
+}
+
+@media screen and (max-width:978px) {
+  .btn-hamburger-icon{
+    display: block;
+  }
+}

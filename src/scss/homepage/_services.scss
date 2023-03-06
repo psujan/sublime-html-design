@@ -1,0 +1,35 @@
+@import '../variables';
+
+.service-title {
+  margin-bottom: 20px;
+}
+
+.service-card {
+  i {
+    font-size: 36px;
+  }
+  h5 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: $heading-font;
+    color: $primary;
+    transition: 0.3s ease;
+    &:hover {
+      color: $info;
+      cursor: pointer;
+    }
+  }
+  padding: 50px 30px;
+  background: $white;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transition: transform ease-in-out 0.4s;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.service-description {
+  p {
+    font-size: $content-font-sm;
+  }
+}

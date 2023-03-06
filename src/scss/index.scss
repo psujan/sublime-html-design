@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Jost:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap'");
+@import "./_custom.scss";
+@import "./_utility.scss";
+@import "./components/index";
+@import './responsive';
+//page related styles
+@import './homepage/index';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  color: $content;
+}
+
+.font-title {
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+
+
+
+

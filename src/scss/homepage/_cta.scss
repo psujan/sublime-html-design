@@ -1,0 +1,13 @@
+
+.call-to-action {
+  padding: 120px 0;
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+    url('../images/cta-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  h4 {
+    font-size: 1.75rem;
+  }
+}

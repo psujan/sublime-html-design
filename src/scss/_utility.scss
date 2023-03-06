@@ -1,0 +1,118 @@
+@import './variables';
+/*font family*/
+
+/*font size*/
+.base-font {
+  font-size: $base-font;
+}
+
+.logo-font {
+  font-size: $logo-font;
+}
+
+.content-font {
+  font-size: $content-font;
+}
+
+.content-font-sm {
+  font-size: $content-font-sm;
+}
+
+.hero-font {
+  font-size: $hero-font;
+}
+
+.heading-font {
+  font-size: $heading-font;
+}
+
+.heading-font-md {
+  font-size: $heading-font-md;
+}
+
+.wt-regular {
+  font-weight: 400;
+}
+
+.wt-medium {
+  font-weight: 500;
+}
+
+.wt-bold {
+  font-weight: 700;
+}
+
+.wt-bolder {
+  font-weight: 800;
+}
+
+.wt-boldest {
+  font-weight: 900;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1.2;
+  span {
+    display: block;
+  }
+  .section-title-heading {
+    font-size: $heading-font-xl;
+  }
+  .section-title-border {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 120px;
+    height: 2px;
+    border-radius: 50%;
+    background: #ddd;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      background-color: $info;
+      top: 0;
+      left: 40px;
+    }
+  }
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.box {
+  padding: 30px;
+  height: 100%;
+}
+
+// custom form
+.custom-form {
+  label {
+    margin-bottom: 6px;
+  }
+  .form-control {
+    box-shadow: none;
+    border-radius: 4px;
+    border: 1px solid $form-border;
+    &:focus {
+      box-shadow: none;
+      border-color: $info !important;
+    }
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+}
+
+// general section
+.general-section {
+  padding: 60px 0;
+}
+
+.section-light {
+  background-color: $background-gray-light;
+}

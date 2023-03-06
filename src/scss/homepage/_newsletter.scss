@@ -1,0 +1,23 @@
+@import '../variables';
+
+.newsletter-section {
+  padding: 50px;
+}
+
+.newsletter-row {
+  .input-group {
+    width: 100%;
+    position: relative;
+    input {
+      width: 95%;
+      padding: 8px 45px 8px 20px !important;
+      padding-right: 0;
+      border-radius: 50px;
+      border: 0;
+      color: inherit;
+      font-size: $content-font;
+      outline: 0;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+}

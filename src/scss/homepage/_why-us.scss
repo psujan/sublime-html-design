@@ -1,0 +1,60 @@
+@import '../variables';
+.why-us-col {
+  padding: 55px 50px;
+}
+.why-us-intro {
+  h3 {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+}
+
+.why-us-faq {
+  .accordion-item {
+    border: 0;
+  }
+  .accordion-button {
+    font-weight: 500;
+    box-shadow: none !important;
+    &:focus {
+      box-shadow: none !important;
+    }
+    &:after {
+      background-size: 1rem;
+    }
+  }
+  .accordion-body {
+    padding-top: 0px;
+  }
+}
+
+.faq {
+  .accordion-item {
+    border: 0;
+  }
+  .accordion-button {
+    font-weight: 500;
+    box-shadow: none !important;
+    color: $info;
+    &:focus {
+      box-shadow: none !important;
+    }
+    &:after {
+      background-size: 1rem;
+    }
+  }
+  .accordion-button.collapsed {
+    color: $content;
+  }
+  .accordion-body {
+    padding-top: 0px;
+  }
+}
+
+.why-us-bg {
+  background: url('../images/why-us.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

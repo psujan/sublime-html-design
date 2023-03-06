@@ -1,0 +1,41 @@
+@import '../variables';
+
+.pricing-card {
+  padding: 60px 40px;
+  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  height: 100%;
+  border-top: 4px solid $white;
+  border-radius: 5px;
+  h5 {
+    margin-bottom: 15px;
+  }
+  .price-text {
+    sup {
+      font-size: 24px;
+    }
+    font-size: 48px;
+  }
+  .price-basis {
+    margin-top: -11px;
+  }
+
+  .pricing-features {
+    color: $gray-400;
+    li {
+      i {
+        font-size: $heading-font;
+      }
+      color: $gray-400;
+      font-size: $base-font;
+      line-height: 40px;
+    }
+    .is-mute {
+      color: $gray-300 !important;
+    }
+    margin-bottom: 34px;
+  }
+}
+
+.pricing-card.is-featured {
+  border-top: 4px solid $info;
+}
