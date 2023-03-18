@@ -87,6 +87,11 @@ const initJs = function () {
     }
   }
 
+  const closeMenu = (mobileMenu) => {
+    mobileMenu.classList.remove('mobile-menu-active')
+    mobileMenuButton.classList.remove('d-none')
+  }
+
   /**
    * Mobile Menu Js Handle
    */
@@ -99,10 +104,17 @@ const initJs = function () {
         mobileMenu.classList.toggle('mobile-menu-active')
       }
     })
-
     on('click', '#btn-mobile-menu-close', () => {
-      mobileMenu.classList.remove('mobile-menu-active')
-      mobileMenuButton.classList.remove('d-none')
+      closeMenu(mobileMenu)
+    })
+  }
+
+  const mobileMenuLinks = select('.link-mobile-menu', true)
+  if (mobileMenuLinks) {
+    mobileMenuLinks.forEach((linkItem) => {
+      linkItem.addEventListener('click', () => {
+        closeMenu(mobileMenu)
+      })
     })
   }
   /**
