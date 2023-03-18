@@ -11851,6 +11851,84 @@ footer {
     --heading-font-size-xl: 1.8rem;
   }
 }
+.pricing-card {
+  padding: 60px 40px;
+  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  height: 100%;
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+}
+.pricing-card h5, .pricing-card .h5 {
+  margin-bottom: 15px;
+}
+.pricing-card .price-text {
+  font-size: 48px;
+}
+.pricing-card .price-text sup {
+  font-size: 24px;
+}
+.pricing-card .price-basis {
+  margin-top: -11px;
+}
+.pricing-card .pricing-features {
+  color: var(--clr-gray-400);
+  margin-bottom: 34px;
+}
+.pricing-card .pricing-features li {
+  color: var(--clr-gray-400);
+  font-size: var(--base-font-size);
+  line-height: 40px;
+}
+.pricing-card .pricing-features li i {
+  font-size: var(--heading-font-size);
+}
+.pricing-card .pricing-features .is-mute {
+  color: var(--clr-gray-300) !important;
+}
+
+.pricing-card.is-featured {
+  border-top: 4px solid var(--clr-info);
+}
+
+:root {
+  --base-font-size: 1rem;
+  --content-font-size: 0.9375rem;
+  --content-font-size-sm: 0.875rem;
+  --hero-font-size: 3rem;
+  --logo-font-size: 1.875rem;
+  --heading-font-size: 1.5rem;
+  --heading-font-size-md: 1.25rem;
+  --heading-font-size-xl: 2rem;
+  --clr-primary: rgb(55, 81, 126);
+  --clr-primary-alt:rgba(40, 58, 90, 0.902);
+  --clr-info: #47b2e4;
+  --clr-info-strong: #209dd8;
+  --clr-green: #28a745;
+  --clr-content: #444444;
+  --clr-content-light: #848484;
+  --clr-info-light: #e7f5fb;
+  --clr-hero-text: #ffffff99;
+  --clr-gray-100: #f3f5fa;
+  --clr-gray-150: #eff2f8;
+  --clr-gray-200: #cbd6e9;
+  --clr-gray-400: #999;
+  --clr-gray-300: #ccc;
+  --clr-form-border:#ced4da;
+  --clr-white: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --base-font-size: 0.9375rem;
+    --content-font-size: 0.9rem;
+    --content-font-size-sm: 0.875rem;
+    --hero-font-size: 1.7rem;
+    --logo-font-size: 1.5rem;
+    --heading-font-size: 1.2rem;
+    --heading-font-size-md: 1rem;
+    --heading-font-size-xl: 1.8rem;
+  }
+}
 .contact-box {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
@@ -11940,6 +12018,7 @@ html,
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--clr-content);
+  scroll-behavior: smooth;
 }
 
 .font-title {
